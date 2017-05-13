@@ -1,14 +1,14 @@
 <?php
 $services = array(
-    new Service('Aquecedores',           'aquecedores.png'),
-    new Service('Medidor de Gás',        'medidor_gas.jpg'),
-    new Service('Pressurizador de Água', 'pressurizador_agua.jpg'),
-    new Service('Mini-bombas',           'pressurizador.jpg'),
-    new Service('Central de gás',        'central_gas.jpg'),
-    new Service('Chuveiro',              'chuveiro.jpg'),
-    new Service('Fogão',                 'fogao.jpg'),
-    new Service('Tubulação de gás',      'tubulacao.jpg'),
-    new Service('Torneira',              'torneiras.jpg')
+    new Service('Aquecedores',           'aquecedores-min.png'),
+    new Service('Medidor de Gás',        'medidor_gas-min.jpg'),
+    new Service('Pressurizador de Água', 'pressurizador_agua-min.jpg'),
+    new Service('Mini-bombas',           'pressurizador-min.jpg'),
+    new Service('Central de gás',        'central_gas-min.jpg'),
+    new Service('Chuveiro',              'chuveiro-min.jpg'),
+    new Service('Fogão',                 'fogao-min.jpg'),
+    new Service('Tubulação de gás',      'tubulacao-min.jpg'),
+    new Service('Torneira',              'torneiras-min.jpg')
 );
 ?>
 

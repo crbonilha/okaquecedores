@@ -1,7 +1,7 @@
 <?php
 $services = array(
-    new Service('', 'manutencao_1.jpg'),
-    new Service('', 'manutencao_2.jpg'),
+    new Service('', 'manutencao_1-min.jpg'),
+    new Service('', 'manutencao_2-min.jpg'),
 );
 ?>
 

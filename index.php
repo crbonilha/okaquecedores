@@ -6,13 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Cristhian Bonilha">
 
     <title>OK aquecedores</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -20,11 +16,8 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
-    <!-- Theme CSS -->
-    <!-- <link href="css/agency.css" rel="stylesheet"> -->
-
     <!-- Minified CSS -->
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.min.css" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -219,15 +212,14 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <!-- <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li> -->
-                        <li><a 
-                            href="https://www.facebook.com/OK-aquecedores-1703682403193192/"
-                            target="_blank" 
-                        ><i class="fa fa-facebook"></i></a>
+                        <li>
+                            <a 
+                                href="https://www.facebook.com/OK-aquecedores-1703682403193192/"
+                                target="_blank" 
+                            >
+                                <i class="fa fa-facebook"></i>
+                            </a>
                         </li>
-                        <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li> -->
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -243,22 +235,8 @@
         </div>
     </footer>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/agency.min.js"></script>
-
+    <!-- Minified Script -->
+    <script type="text/javascript" src="js/script.min.js"></script>
 </body>
 
 </html>

@@ -1,9 +1,9 @@
 <?php
 $services = array(
-    new Service('Kit Chaminé',                               'chamine.jpg'),
-    new Service('Kit Flexível',                              'flexivel.jpg'),
-    new Service('Registro de parede e Mangueira para fogão', 'registro_parede.jpg'),
-    new Service('Regulador de gás',                          'regulador_gas2.jpg')
+    new Service('Kit Chaminé',                               'chamine-min.jpg'),
+    new Service('Kit Flexível',                              'flexivel-min.jpg'),
+    new Service('Registro de parede e Mangueira para fogão', 'registro_parede-min.jpg'),
+    new Service('Regulador de gás',                          'regulador_gas2-min.jpg')
 );
 ?>
 

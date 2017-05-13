@@ -21,12 +21,17 @@ gulp.task('less', function() {
 });
 
 // Minify compiled CSS
+// because order matters
+var cssFiles = [
+    'vendor/bootstrap-3.3.7/dist/css/bootstrap.min.css',
+    'vendor/font-awesome/css/font-awesome.min.css',
+    'css/agency.css'
+];
 gulp.task('minify-css', ['less'], function() {
-    return gulp.src('css/agency.css')
-        // .pipe(autoprefixer())
-        // .pipe(cleanCSS({ compatibility: 'ie8' }))
-        // .pipe(rename({ suffix: '.min' }))
-        // .pipe(minifyCSS())
+    return gulp.src(cssFiles)
+        .pipe(autoprefixer())
+        .pipe(cleanCSS({ compatibility: 'ie8' }))
+        .pipe(minifyCSS())
         .pipe(concat('style.min.css'))
         .pipe(gulp.dest('css/'))
         .pipe(browserSync.reload({
@@ -35,11 +40,19 @@ gulp.task('minify-css', ['less'], function() {
 });
 
 // Minify JS
+var jsFiles = [
+    'vendor/jquery/jquery.min.js',
+    'vendor/bootstrap-3.3.7/dist/js/bootstrap.min.js',
+    'js/jquery.easing.min.js',
+    'js/jqBootstrapValidation.js',
+    'js/contact_me.js',
+    'js/agency.min.js'
+];
 gulp.task('minify-js', function() {
-    return gulp.src('js/freelancer.js')
+    return gulp.src(jsFiles)
         .pipe(uglify())
-        .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('js'))
+        .pipe(concat('script.min.js'))
+        .pipe(gulp.dest('js/'))
         .pipe(browserSync.reload({
             stream: true
         }))
