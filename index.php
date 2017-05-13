@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="keywords" content="okaquecedores, ok, aquecedores, instalação, manutenção, pressurizador, medidor de gás, aquecedor, curitiba, paraná, região metropolitana">
+    <meta name="description" content="OK aquecedores atua na prestação de serviços de instalação e manutenção de aquecedores, pressurizadores e medidores de gás. Com sede no bairro Boqueirão, a OK aquecedores atende Curitiba e Região Metropolitana.">
     <meta name="author" content="Cristhian Bonilha">
 
     <title>OK aquecedores</title>
